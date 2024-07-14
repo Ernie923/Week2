@@ -1,8 +1,16 @@
+<<<<<<< HEAD
+=======
+* {
+  box-sizing: border-box;
+}
+
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
 body {
   font-family: "Bruno Ace SC", sans-serif;
   line-height: 1.5;
 }
 
+<<<<<<< HEAD
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -14,11 +22,16 @@ img {
 a {
   text-decoration: none;
   display: block;
+=======
+.wrap {
+  width: 100%;
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
 }
 
 .container {
   max-width: 1296px;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 0 12px;
 }
 
@@ -100,17 +113,43 @@ a {
 
 .text-align-right {
   text-align: right;
+=======
+}
+
+.text-1 {
+  font-size: 64px;
+  color: #ffffff;
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
 }
 
 header {
   background-color: #000000;
+<<<<<<< HEAD
   padding: 40px 0;
 }
 header .navbar a:hover {
+=======
+  padding: 40px 312px 0;
+}
+header .navbar {
+  display: flex;
+  gap: 61px;
+  color: #D1D1D1;
+}
+header .navbar li {
+  width: 306px;
+}
+header .navbar li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+header .navbar li a:hover {
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
   color: #00FFA3;
 }
 
 .banner {
+<<<<<<< HEAD
   background-color: #000;
 }
 .banner .banner-text div a {
@@ -141,6 +180,68 @@ header .navbar a:hover {
 
 .about {
   padding: 160px 0;
+=======
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: #000000;
+}
+.banner .container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.banner-text {
+  width: 636px;
+}
+.banner-text h1 {
+  font-size: 128px;
+  color: #00FFA3;
+  text-align: right;
+}
+.banner-text a {
+  width: 185px;
+  display: flex;
+  gap: 4px;
+  padding: 12px 24px;
+  border-radius: 32px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-left: auto;
+  cursor: pointer;
+}
+.banner-text a:hover {
+  background-color: lightgreen;
+}
+
+.introduction {
+  display: flex;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+  background-size: cover;
+  margin-bottom: 160px;
+}
+.introduction .container {
+  display: flex;
+  gap: 24px;
+}
+.introduction-text h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.introduction-text p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.about {
+  margin-bottom: 160px;
+}
+.about .container {
+  display: flex;
+  gap: 134px;
+  align-items: center;
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
 }
 .about .about-card {
   max-width: 636px;
@@ -151,7 +252,11 @@ header .navbar a:hover {
 .about .about-card li {
   width: 306px;
   border: 1px solid #E3E3E3;
+<<<<<<< HEAD
   padding: 16px 0;
+=======
+  padding: 16px;
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
 }
 .about .about-card li h3 {
   font-size: 20px;
@@ -173,6 +278,7 @@ header .navbar a:hover {
 
 .contact {
   background-color: #000000;
+<<<<<<< HEAD
   padding: 96px 0;
 }
 .contact-text img {
@@ -230,5 +336,57 @@ footer {
   padding: 40px 0;
 }
 footer .container p {
+=======
+  padding: 96px 312px;
+}
+.contact .container {
+  display: flex;
+  gap: 113px;
+  align-items: center;
+}
+.contact h2 {
+  font-size: 64px;
+  color: #ffffff;
+}
+.contact .contact-link {
+  display: flex;
+  gap: 20px;
+}
+.contact .contact-link a {
+  display: block;
+  cursor: pointer;
+}
+
+.project {
+  padding: 160px 312px;
+}
+.project .title {
+  width: 746px;
+  margin-left: auto;
+  margin-bottom: 16px;
+}
+.project .title h3 {
+  font-size: 64px;
+}
+.project .project-frame {
+  display: flex;
+  gap: 24px;
+}
+.project .project-frame .frame-3, .project .project-frame .frame-4 {
+  display: flex;
+  gap: 24px;
+}
+.project .project-frame .frame-3 {
+  margin-bottom: 28px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 40px 312px;
+}
+footer p {
+  font-size: 16px;
+  color: #ffffff;
+>>>>>>> 1184389f9a3bb9d14962ffcf4b32ddaf0146d0d6
   text-align: center;
 }/*# sourceMappingURL=all.css.map */
